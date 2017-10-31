@@ -1,3 +1,4 @@
+import { MarkerInfoComponent } from './marker-info/marker-info.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -13,7 +14,8 @@ import { routesConfig } from './routes-config';
 @NgModule({
   declarations: [
     AppComponent,
-    SimpleMapComponent
+    SimpleMapComponent,
+    MarkerInfoComponent
   ],
   imports: [
     BrowserModule,

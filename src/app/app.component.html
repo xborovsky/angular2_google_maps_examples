@@ -9,11 +9,12 @@
     <div class="container-fluid">
       <ul class="nav navbar-nav">
         <li routerLinkActive="active"><a routerLink="simple">Simple</a></li>
+        <li routerLinkActive="active"><a routerLink="marker-info">Marker info</a></li>
       </ul>
     </div>
   </nav>
 </div>
 
 <div class="container">
-  <app-simple-map></app-simple-map>
+  <router-outlet></router-outlet>
 </div>
