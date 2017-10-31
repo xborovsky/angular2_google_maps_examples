@@ -1,3 +1,4 @@
+import { MultipleMarkersComponent } from './multiple-markers/multiple-markers.component';
 import { GeolocationMapComponent } from './geolocation-map/geolocation-map.component';
 import { MarkerInfoComponent } from './marker-info/marker-info.component';
 import { BrowserModule } from '@angular/platform-browser';
@@ -17,7 +18,8 @@ import { routesConfig } from './routes-config';
     AppComponent,
     SimpleMapComponent,
     MarkerInfoComponent,
-    GeolocationMapComponent
+    GeolocationMapComponent,
+    MultipleMarkersComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,8 @@
+<agm-map [latitude]="baseLatLon.lat" [longitude]="baseLatLon.lon"  [zoom]="12">
+    <agm-marker *ngFor="let coord of coords" [latitude]="coord.lat" [longitude]="coord.lon">
+        <agm-info-window [disableAutoPan]="true">
+          Lat: {{ coord.lat }}<br />
+          Lon: {{ coord.lon }}
+        </agm-info-window>
+    </agm-marker>
+  </agm-map>
