@@ -6,6 +6,9 @@ import { AgmCoreModule } from '@agm/core';
 
 import { AppComponent } from './app.component';
 import { SimpleMapComponent } from './simple-map/simple-map.component';
+import { RouterModule } from '@angular/router';
+
+import { routesConfig } from './routes-config';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,8 @@ import { SimpleMapComponent } from './simple-map/simple-map.component';
     HttpModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyCaIBbX-gTbdOHqpJg9PCpt7YimjuCiNoM'
-    })
+    }),
+    RouterModule.forRoot(routesConfig)
   ],
   providers: [],
   bootstrap: [AppComponent]
