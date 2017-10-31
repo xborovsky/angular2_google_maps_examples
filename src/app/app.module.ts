@@ -1,3 +1,4 @@
+import { SearchComponent } from './search/search.component';
 import { MultipleMarkersComponent } from './multiple-markers/multiple-markers.component';
 import { GeolocationMapComponent } from './geolocation-map/geolocation-map.component';
 import { MarkerInfoComponent } from './marker-info/marker-info.component';
@@ -19,7 +20,8 @@ import { routesConfig } from './routes-config';
     SimpleMapComponent,
     MarkerInfoComponent,
     GeolocationMapComponent,
-    MultipleMarkersComponent
+    MultipleMarkersComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

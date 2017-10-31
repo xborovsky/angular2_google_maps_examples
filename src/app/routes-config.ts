@@ -1,3 +1,4 @@
+import { SearchComponent } from './search/search.component';
 import { MultipleMarkersComponent } from './multiple-markers/multiple-markers.component';
 import { GeolocationMapComponent } from './geolocation-map/geolocation-map.component';
 import { MarkerInfoComponent } from './marker-info/marker-info.component';
@@ -9,5 +10,6 @@ export const routesConfig:Routes = [
     { path : 'simple', component : SimpleMapComponent },
     { path : 'marker-info', component : MarkerInfoComponent },
     { path : 'geolocation', component : GeolocationMapComponent },
-    { path : 'multiple-markers', component : MultipleMarkersComponent }
+    { path : 'multiple-markers', component : MultipleMarkersComponent },
+    { path : 'search', component : SearchComponent }
 ];

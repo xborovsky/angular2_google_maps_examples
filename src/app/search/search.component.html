@@ -1,0 +1,7 @@
+<input type="text" name="searchText" class="form-control" placeholder="search..."
+  (keyup)="searchText.next($event.target.value)" />
+<br />
+<agm-map [latitude]="lat" [longitude]="lng">
+  <agm-marker [latitude]="lat" [longitude]="lng">
+  </agm-marker>
+</agm-map>
